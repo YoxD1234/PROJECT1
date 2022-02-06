@@ -16,7 +16,7 @@
         transform: translateX(0px);
     }
     .nav-bar ul li{
-        padding: 40px 20px;
+        padding: 40px 0px;
     }
     .nav-bar ul span{
         background-image: none;
@@ -29,4 +29,35 @@
         display: block;
         cursor: pointer;
     }
+    .perfil{
+       display: none;
+    }
+    .escribenos-formulario{
+        width: 50%;
+        padding: 30px 0px;
+    }
 }
+@media screen and (max-width:700px){
+        
+    .escribenos-formulario{
+        width: 80%;
+    }
+    form input{
+        width:80%;
+    }
+    form{
+        align-items: center;
+        width: 100%;
+    }
+    textarea{
+        width:80%;
+    }
+
+}
+
+@media screen and (max-width:540px){
+
+}
+
+
+

@@ -93,6 +93,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    padding: 0px 20px;
 }
 .info p{
     color: white;
@@ -198,6 +199,7 @@ textarea{
     border: 1px solid rgb(22, 223, 223);
     font-weight: 300;
     font-size: 15px;
+    border-radius: 10px;
 }
 .escribenos{
     margin: 0;
