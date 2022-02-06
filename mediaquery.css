@@ -1,0 +1,32 @@
+@media screen and (max-width:920px){
+    .nav-bar .barra{
+        display:block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(40, 230, 182,.9);
+        box-shadow: 3px 0px rgba(6, 65, 50, .9);
+        height: 100%;
+        width: 40%;
+        padding: 40px 20px;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+    .nav-bar .barra.show{
+        transform: translateX(0px);
+    }
+    .nav-bar ul li{
+        padding: 40px 20px;
+    }
+    .nav-bar ul span{
+        background-image: none;
+    }
+    .nav-bar ul a{
+        color: rgb(255, 255, 255);
+        font-size:18px;
+    }
+    .hambur{
+        display: block;
+        cursor: pointer;
+    }
+}

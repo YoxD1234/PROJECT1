@@ -20,7 +20,6 @@ body::-webkit-scrollbar-thumb{
 html{
     scroll-behavior:smooth;
     background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-
 }
 
 .header {
@@ -53,6 +52,10 @@ nav{
 .nav-bar a{
     text-decoration: none;
     color: white;
+
+}
+.nav-bar a p{
+    box-shadow: 1px 1px red;
 }
 .nav-bar a:hover{
     border-bottom: 2px solid rgb(40, 230, 182);
@@ -60,6 +63,14 @@ nav{
 .nav-bar ul{
     display: flex;
     align-items: center;
+}
+.hambur {
+    width: 48px;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 8px 10px;
+    box-shadow:4px 4px black;
+    display: none;
 }
 .logo p{
     font-size: 25px;
@@ -72,7 +83,6 @@ nav{
 .nav-bar ul span{
     background-image: linear-gradient(to top, rgba(64, 224, 208, 0.747) 50%, rgba(35, 235, 249, 0.726) 50%);
     border-radius: 10px 10px 10px 10px;
-    padding: 6px 12px;
 
 }
 .info {
@@ -149,7 +159,7 @@ main{
     height: 480px;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(119, 119, 119,.2);
+    border: 2px solid rgb(119, 119, 119,.2);
     border-radius: 10px;
     text-align: left;
 }
