@@ -311,3 +311,70 @@ footer .logo p{
     font-size: 25px;
     font-weight: 900;
 }
+.public1{
+    height: 100vh;
+    min-height: 100vh;
+    background: url("./img/publi1.png");
+    background-size: cover;
+}
+.public1 img{
+    height: 100%
+}
+.public2{
+    min-height: 90vh;
+    background-color: azure;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.foto1{
+    height: 500px;
+    width: 400px;
+}
+.public2 .foto1 img{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.foto2{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.public2 .foto2 img{
+    
+    padding: 20px;  
+    width: 100%;
+    height: 100%;
+}
+.foto3{
+    height: 70%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.public2 img{
+    border-radius: 10px;
+}
+.public2 .foto3 img
+{ border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    }
+    .public2 div img{
+        border-radius: 30px;
+    }
+.foto3 img{
+    border-radius: 50px;
+}
